@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f4f2ea" />
+    <meta name="description" content="OFFSCRIPT — practical creative technology courses for people who want to make things that matter." />
+    <title>OFFSCRIPT — Learn by making</title>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="app">
+      <div class="announcement"><span class="announcement-dot"></span><span>NEW COHORTS OPEN FOR NOVEMBER</span><a href="#courses">Find your next skill <span aria-hidden="true">↗</span></a></div>
+      <header class="site-header" id="top">
+        <a class="wordmark" href="#top" aria-label="OFFSCRIPT home"><span class="mark">O<span>/</span></span><span>OFFSCRIPT<span class="wordmark-dot">.</span></span></a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+        <nav class="nav-links" id="nav-links" aria-label="Main navigation">
+          <a href="#courses">Courses</a><a href="#method">Our method</a><a href="#stories">Stories</a><a href="#faq">FAQ</a>
+          <button class="nav-cta open-application">Apply now <span aria-hidden="true">↗</span></button>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero section-wrap">
+          <div class="hero-copy reveal">
+            <div class="eyebrow"><span class="eyebrow-line"></span> A SCHOOL FOR THE CURIOUS</div>
+            <h1>Learn the<br /><span class="italic-word">rules.</span><br />Then break<br /><span class="outline-word">the script.</span></h1>
+            <p class="hero-intro">Practical courses for people who want to make things with code, design and emerging technology. Less watching. More doing.</p>
+            <div class="hero-actions"><a class="button button-dark" href="#courses">Explore courses <span aria-hidden="true">↘</span></a><a class="text-link" href="#method">How we learn <span aria-hidden="true">↗</span></a></div>
+            <div class="hero-proof"><div class="avatar-stack" aria-hidden="true"><span>J</span><span>M</span><span>A</span><span>+</span></div><div><strong>2,400+ curious minds</strong><small>building what comes next</small></div></div>
+          </div>
+          <div class="hero-art reveal" aria-label="Creative students working together in a studio">
+            <div class="hero-photo"></div>
+            <div class="hero-graphic hero-graphic-blue"><span>MAKE<br />GOOD<br /><em>STUFF.</em></span><svg viewBox="0 0 120 120" aria-hidden="true"><path d="M12 60h96M60 12v96M26 26l68 68M94 26 26 94" /></svg></div>
+            <div class="hero-sticker"><span>NOT ANOTHER</span><strong>PASSIVE<br />COURSE</strong><span class="sticker-arrow">↘</span></div>
+            <div class="hero-caption"><span>01 / THE STUDIO</span><span>CAIRO · EVERYWHERE</span></div>
+            <div class="hero-side-note">LEARN IT<br />BY MAKING IT <span>↗</span></div>
+          </div>
+        </section>
+
+        <section class="marquee-band" aria-label="Our philosophy"><div class="marquee-track"><span>IDEAS INTO THINGS</span><b>✳</b><span>SKILLS INTO PRACTICE</span><b>✳</b><span>CURIOUS BY NATURE</span><b>✳</b><span>IDEAS INTO THINGS</span><b>✳</b><span>SKILLS INTO PRACTICE</span><b>✳</b><span>CURIOUS BY NATURE</span><b>✳</b></div></section>
+
+        <section class="courses-section section-wrap" id="courses">
+          <div class="section-heading reveal"><div><div class="eyebrow"><span class="eyebrow-line"></span> THE GOOD STUFF</div><h2>Pick a direction.<br /><span class="serif-italic">Make it yours.</span></h2></div><p>No fluff, no 40-hour video dumps. Learn a skill by building something real, with people who are figuring it out alongside you.</p></div>
+          <div class="course-tools reveal">
+            <div class="filter-tabs" role="group" aria-label="Filter courses">
+              <button class="filter-tab active" data-filter="All" aria-pressed="true">All courses <span>04</span></button><button class="filter-tab" data-filter="Design" aria-pressed="false">Design</button><button class="filter-tab" data-filter="Code" aria-pressed="false">Code</button><button class="filter-tab" data-filter="AI" aria-pressed="false">AI & tools</button>
+            </div>
+            <label class="course-search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 5 5"/></svg><input id="course-search" type="search" placeholder="Find your thing" aria-label="Search courses" /></label>
+          </div>
+          <div class="course-grid" id="course-grid">
+            <article class="course-card reveal" data-category="Code" data-search="creative coding javascript web development frontend">
+              <button class="course-image course-image-code" data-course="creative-code" aria-label="View Creative Code course"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=85" alt="Circuit board details" loading="lazy" /><span class="course-number">01 / CODE</span><span class="course-image-stamp">MAKE<br />IT MOVE<span>↗</span></span></button>
+              <div class="course-card-body"><div class="course-meta"><span>6 WEEKS</span><span>LIVE ONLINE</span></div><button class="course-title" data-course="creative-code">Creative Code <span>↗</span></button><p>Turn your ideas into interactive websites, experiments and digital experiences.</p><div class="course-footer"><span class="level-tag">BEGINNER FRIENDLY</span><span class="course-price">EGP 4,800</span></div></div>
+            </article>
+            <article class="course-card reveal" data-category="Design" data-search="product design ui ux figma prototyping experience design">
+              <button class="course-image course-image-design" data-course="product-design" aria-label="View Product Design course"><img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?auto=format&fit=crop&w=1000&q=85" alt="Colorful creative print and design materials" loading="lazy" /><span class="course-number">02 / DESIGN</span><span class="course-image-stamp stamp-orange">THINK<br />IN SYSTEMS<span>↗</span></span></button>
+              <div class="course-card-body"><div class="course-meta"><span>5 WEEKS</span><span>HYBRID</span></div><button class="course-title" data-course="product-design">Product Design <span>↗</span></button><p>Go from fuzzy problem to a sharp, testable digital product prototype.</p><div class="course-footer"><span class="level-tag">FOUNDATIONS</span><span class="course-price">EGP 5,200</span></div></div>
+            </article>
+            <article class="course-card reveal" data-category="AI" data-search="AI practical tools automation workflows prompt engineering">
+              <button class="course-image course-image-ai" data-course="everyday-ai" aria-label="View Everyday AI course"><img src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=1000&q=85" alt="Abstract colorful artificial intelligence visual" loading="lazy" /><span class="course-number">03 / AI + TOOLS</span><span class="course-image-stamp stamp-blue">WORK<br />SMARTER<span>↗</span></span></button>
+              <div class="course-card-body"><div class="course-meta"><span>3 WEEKS</span><span>LIVE ONLINE</span></div><button class="course-title" data-course="everyday-ai">Everyday AI <span>↗</span></button><p>Build useful AI workflows that give you back time for the work that matters.</p><div class="course-footer"><span class="level-tag">NO EXPERIENCE NEEDED</span><span class="course-price">EGP 3,200</span></div></div>
+            </article>
+            <article class="course-card reveal" data-category="Code" data-search="python automation data APIs programming beginner">
+              <button class="course-image course-image-python" data-course="python-practice" aria-label="View Python in Practice course"><img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1000&q=85" alt="Code editor on a computer screen" loading="lazy" /><span class="course-number">04 / CODE</span><span class="course-image-stamp stamp-lime">SMALL<br />SCRIPTS.<br />BIG WINS.<span>↗</span></span></button>
+              <div class="course-card-body"><div class="course-meta"><span>4 WEEKS</span><span>HYBRID</span></div><button class="course-title" data-course="python-practice">Python in Practice <span>↗</span></button><p>Automate the boring bits, work with APIs and ship your first useful script.</p><div class="course-footer"><span class="level-tag">BEGINNER FRIENDLY</span><span class="course-price">EGP 3,900</span></div></div>
+            </article>
+          </div>
+          <div class="no-results" id="no-results" hidden><span>¯\_(ツ)_/¯</span><h3>Nothing in that corner.</h3><p>Try another search or switch the filter.</p><button class="button button-outline" id="reset-courses">Show all courses</button></div>
+          <div class="course-note"><span>GOOD TO KNOW</span><p>Small cohorts. Real feedback. A project you can show off at the end.</p><a href="#method">Our learning method ↗</a></div>
+        </section>
+
+        <section class="manifesto-section" id="method"><div class="manifesto-top"><div class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> THE OFFSCRIPT WAY</div><span class="manifesto-index">02 — 04</span></div><h2 class="manifesto-title">Less <span class="crossed">scrolling.</span><br />More <em>shipping.</em></h2><div class="manifesto-bottom"><p>We believe you learn by making, not by collecting tabs. Every course ends with something real: a tool, a prototype, a script, a tiny piece of the future.</p><a href="#courses" class="button button-light">Find your course <span>↗</span></a></div><div class="manifesto-orbit" aria-hidden="true"><span>MAKE</span><span>TEST</span><span>LEARN</span><i>✳</i></div></section>
+
+        <section class="method-section section-wrap"><div class="method-heading reveal"><div class="eyebrow"><span class="eyebrow-line"></span> NO SECRET SAUCE</div><h2>Just a better<br /><span class="serif-italic">way to learn.</span></h2></div><div class="steps-list"><article class="step reveal"><span class="step-index">01</span><div class="step-icon step-icon-yellow">✳</div><div class="step-copy"><h3>Start with a real brief.</h3><p>Forget imaginary homework. You'll work on a practical challenge that gives the skill a reason to exist.</p></div><span class="step-arrow">↘</span></article><article class="step reveal"><span class="step-index">02</span><div class="step-icon step-icon-blue">↗</div><div class="step-copy"><h3>Make it with people.</h3><p>Small cohorts, thoughtful mentors and feedback while the work is still messy enough to improve.</p></div><span class="step-arrow">↘</span></article><article class="step reveal"><span class="step-index">03</span><div class="step-icon step-icon-orange">◒</div><div class="step-copy"><h3>Ship something useful.</h3><p>Finish with a tangible project and a clearer idea of what you can make next.</p></div><span class="step-arrow">↘</span></article></div></section>
+
+        <section class="numbers-band"><div><strong>2.4k<span>+</span></strong><span>CURIOUS MINDS</span></div><div><strong>94<span>%</span></strong><span>FINISH A PROJECT</span></div><div><strong>12<span>:1</span></strong><span>LEARNER / MENTOR</span></div><div><strong>01</strong><span>THING YOU'LL MAKE</span></div><p class="numbers-disclaimer">Illustrative demo figures for this fictional academy.</p></section>
+
+        <section class="stories-section section-wrap" id="stories"><div class="section-heading reveal"><div><div class="eyebrow"><span class="eyebrow-line"></span> PEOPLE, NOT TESTIMONIALS</div><h2>Made by learners.<br /><span class="serif-italic">Kept by them.</span></h2></div><div class="story-controls"><button id="story-prev" aria-label="Previous story">←</button><button id="story-next" aria-label="Next story">→</button></div></div><div class="story-viewport"><div class="story-track" id="story-track"><article class="story-card"><div class="story-quote-mark">“</div><blockquote>I finally stopped saving tutorials and started making the thing I kept talking about.</blockquote><div class="story-person"><span class="person-avatar avatar-one">NS</span><div><strong>Nour S.</strong><small>Creative Code · Cohort 04</small></div></div><span class="story-side-note">01 / 03</span></article><article class="story-card story-card-blue"><div class="story-quote-mark">“</div><blockquote>The feedback was the difference. I could see what wasn't working and why, not just watch someone do it right.</blockquote><div class="story-person"><span class="person-avatar avatar-two">OK</span><div><strong>Omar K.</strong><small>Product Design · Cohort 02</small></div></div><span class="story-side-note">02 / 03</span></article><article class="story-card story-card-orange"><div class="story-quote-mark">“</div><blockquote>Three weeks later, my daily admin was a workflow. I got my evenings back. That's a skill I use every day.</blockquote><div class="story-person"><span class="person-avatar avatar-three">LM</span><div><strong>Laila M.</strong><small>Everyday AI · Cohort 03</small></div></div><span class="story-side-note">03 / 03</span></article></div></div></section>
+
+        <section class="faq-section section-wrap" id="faq"><div class="faq-intro reveal"><div class="eyebrow"><span class="eyebrow-line"></span> FAIR QUESTIONS</div><h2>Wondering<br /><span class="serif-italic">about a thing?</span></h2><p>We'd rather you ask first than guess wrong.</p><a href="mailto:hello@offscript.academy" class="text-link">Ask us directly ↗</a></div><div class="faq-list reveal"><article class="faq-item"><button class="faq-question" aria-expanded="false"><span>Do I need experience to join?</span><i>+</i></button><div class="faq-answer"><p>Most courses start with the foundations and are built for curious beginners. Each course page explains any prerequisites, so you can choose the right starting point.</p></div></article><article class="faq-item"><button class="faq-question" aria-expanded="false"><span>Are the courses fully online?</span><i>+</i></button><div class="faq-answer"><p>Some cohorts are live online and others are hybrid. You'll find the format, weekly time commitment and dates in each course detail.</p></div></article><article class="faq-item"><button class="faq-question" aria-expanded="false"><span>What happens after I apply?</span><i>+</i></button><div class="faq-answer"><p>This demo shows the application flow locally. In a real enrollment setup, the team would review your interest, answer questions and confirm availability before payment.</p></div></article><article class="faq-item"><button class="faq-question" aria-expanded="false"><span>Will I get a certificate?</span><i>+</i></button><div class="faq-answer"><p>The main outcome is the project you'll build. A certificate of completion may also be offered depending on the cohort; check the course details before applying.</p></div></article></div></section>
+
+        <section class="final-cta"><div class="final-cta-copy"><div class="eyebrow eyebrow-light"><span class="eyebrow-line"></span> YOUR MOVE</div><h2>Got a curious<br /><em>itch?</em></h2><p>Good. That's usually where the good stuff starts.</p><button class="button button-light open-application">Let's make something <span>↗</span></button></div><div class="final-cta-art" aria-hidden="true"><span class="big-asterisk">✳</span><span class="handwritten">See you<br />in the studio.</span><span class="orbit-label">STAY CURIOUS · ALWAYS</span></div></section>
+      </main>
+
+      <footer class="site-footer"><a class="wordmark footer-wordmark" href="#top"><span class="mark">O<span>/</span></span><span>OFFSCRIPT<span class="wordmark-dot">.</span></span></a><p>Make something. Learn something.<br />Repeat until interesting.</p><div class="footer-links"><a href="#courses">Courses</a><a href="#method">Our method</a><a href="#faq">FAQ</a><a href="mailto:hello@offscript.academy">Say hello ↗</a></div><span class="footer-bottom">© 2026 OFFSCRIPT ACADEMY · A FICTIONAL PORTFOLIO PROJECT</span><a href="#top" class="back-top" aria-label="Back to top">↑</a></footer>
+    </div>
+
+    <div class="modal-backdrop" id="course-modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title"><div class="modal modal-course"><button class="modal-close" data-close-modal aria-label="Close course details">×</button><div class="modal-kicker" id="modal-kicker">COURSE / DETAILS</div><h2 id="modal-title">Creative Code</h2><p id="modal-description" class="modal-description"></p><div class="modal-facts" id="modal-facts"></div><div class="modal-outcome"><span>YOU'LL MAKE</span><p id="modal-outcome"></p></div><button class="button button-dark modal-apply" id="modal-apply">Apply for this course <span>↗</span></button></div></div>
+    <div class="modal-backdrop" id="application-modal" hidden role="dialog" aria-modal="true" aria-labelledby="application-title"><div class="modal modal-application"><button class="modal-close" data-close-modal aria-label="Close application form">×</button><div class="modal-kicker">FIRST STEP / NO PRESSURE</div><h2 id="application-title">Let's make<br /><em>something.</em></h2><p class="modal-description">Tell us what you're curious about. This demo form won't send your details anywhere.</p><form id="application-form"><label>Your name<input name="name" type="text" placeholder="What should we call you?" autocomplete="name" required minlength="2" /></label><label>Email address<input name="email" type="email" placeholder="you@example.com" autocomplete="email" required /></label><label>I'm curious about<select name="course" id="application-course" required><option value="" disabled selected>Pick a direction</option><option>Creative Code</option><option>Product Design</option><option>Everyday AI</option><option>Python in Practice</option><option>Not sure yet</option></select></label><label>What would you like to make? <span class="optional">OPTIONAL</span><textarea name="goal" rows="3" placeholder="A tiny idea is enough..."></textarea></label><button class="button button-dark submit-application" type="submit">Send my interest <span>↗</span></button><p class="form-fineprint">Demo only · No information leaves this page.</p></form><div class="application-success" id="application-success" hidden><span class="success-burst">✳</span><h3>That's a good start.</h3><p>Your demo application has been captured in this browser session only. In a real site, the team would be in touch.</p><button class="button button-outline" data-close-modal>Back to exploring</button></div></div></div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

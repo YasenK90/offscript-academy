@@ -1,0 +1,28 @@
+# OFFSCRIPT Academy — Portfolio Website
+
+An editorial course website for a fictional creative-technology academy. Built with Vite, vanilla JavaScript, and CSS.
+
+## Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Open the local URL Vite prints in the terminal.
+
+## Demo interactions
+
+- Search and filter the course catalog
+- Open course details and launch the course-specific application flow
+- Submit the application form (validation and local confirmation only; no personal information is sent or stored)
+- Expand/collapse FAQs
+- Browse the learner story carousel
+- Use the responsive mobile navigation
+
+## Notes
+
+- OFFSCRIPT, course prices, cohorts, stats, testimonials, and all academy content are fictional portfolio demo content.
+- No backend or payment processing is connected.
+- Google Fonts and Unsplash photography are external and require an internet connection.
+- Responsive layouts include narrow phones (320px+), tablets, desktop, and reduced-motion preferences.
