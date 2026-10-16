@@ -24,5 +24,5 @@ Open the local URL Vite prints in the terminal.
 
 - OFFSCRIPT, course prices, cohorts, stats, testimonials, and all academy content are fictional portfolio demo content.
 - No backend or payment processing is connected.
-- Google Fonts and Unsplash photography are external and require an internet connection.
+- Google Fonts are external and require an internet connection. Course and hero art is generated in pure CSS/SVG — no external photography.
 - Responsive layouts include narrow phones (320px+), tablets, desktop, and reduced-motion preferences.
